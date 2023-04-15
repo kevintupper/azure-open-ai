@@ -11,3 +11,7 @@ def config_azure_openai():
     openai.api_version = secrets["AZURE_OPENAI_VERSION"]
     openai.api_key = secrets["AZURE_OPENAI_KEY"]
     return openai
+
+
+
+# https://extras.streamlit.app/Streamlit%20Faker
